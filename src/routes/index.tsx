@@ -5,6 +5,24 @@ import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { projects } from "@/data/projects";
 
+const services = [
+  {
+    tag: "01 / mvp",
+    title: "MVPs that ship",
+    body: "From rough idea to launched product in weeks. FastAPI + Next.js + Supabase, deployed on Vercel/Railway, with a human-in-the-loop where it matters.",
+  },
+  {
+    tag: "02 / rag",
+    title: "RAG & AI assistants",
+    body: "Document-grounded chat for SOPs, compliance, tech packs and product knowledge. Department-scoped retrieval, source citations, no hallucinated answers.",
+  },
+  {
+    tag: "03 / erp",
+    title: "Inventory & ERP dashboards",
+    body: "Production-to-sales tracking for garments and corporate offices. Role-based access, audit-ready movement history, decision-grade dashboards.",
+  },
+];
+
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
@@ -259,21 +277,3 @@ function ProjectCard({
     </article>
   );
 }
-
-const services = [
-  {
-    tag: "01 / mvp",
-    title: "MVPs that ship",
-    body: "From rough idea to launched product in weeks. FastAPI + Next.js + Supabase, deployed on Vercel/Railway, with a human-in-the-loop where it matters.",
-  },
-  {
-    tag: "02 / rag",
-    title: "RAG & AI assistants",
-    body: "Document-grounded chat for SOPs, compliance, tech packs and product knowledge. Department-scoped retrieval, source citations, no hallucinated answers.",
-  },
-  {
-    tag: "03 / erp",
-    title: "Inventory & ERP dashboards",
-    body: "Production-to-sales tracking for garments and corporate offices. Role-based access, audit-ready movement history, decision-grade dashboards.",
-  },
-];
