@@ -277,4 +277,3 @@ const services = [
     body: "Production-to-sales tracking for garments and corporate offices. Role-based access, audit-ready movement history, decision-grade dashboards.",
   },
 ];
-}
