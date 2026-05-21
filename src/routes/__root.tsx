@@ -72,14 +72,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Forhad Hossain — Software Engineer & Founder" },
-      { name: "description", content: "Forhad Hossain — Software engineer building MVPs, RAG systems, and inventory dashboards for modern businesses. Founder of Mavericks Tech Bangladesh." },
+      { title: "Forhad Hossain — AI Engineer" },
+      { name: "description", content: "Forhad Hossain — AI engineer building MVPs, RAG systems, and inventory dashboards for modern businesses. Founder of Mavericks Tech Bangladesh." },
       { name: "author", content: "Forhad Hossain" },
-      { property: "og:title", content: "Forhad Hossain — Software Engineer & Founder" },
-      { property: "og:description", content: "MVPs, RAG systems, and enterprise dashboards built for real businesses." },
+      { property: "og:title", content: "Forhad Hossain — AI Engineer" },
+      { property: "og:description", content: "Forhad Hossain — AI engineer building MVPs, RAG systems, and inventory dashboards for modern businesses. Founder of Mavericks Tech Bangladesh." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Forhad Hossain — AI Engineer" },
+      { name: "twitter:description", content: "Forhad Hossain — AI engineer building MVPs, RAG systems, and inventory dashboards for modern businesses. Founder of Mavericks Tech Bangladesh." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/5732ce06-7bfc-4824-b9fd-229a699e11ec/id-preview-f31b2ca8--ec10f547-582c-4f5c-879a-9a3ede06fc5f.lovable.app-1779337224252.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/5732ce06-7bfc-4824-b9fd-229a699e11ec/id-preview-f31b2ca8--ec10f547-582c-4f5c-879a-9a3ede06fc5f.lovable.app-1779337224252.png" },
     ],
     links: [
       {
