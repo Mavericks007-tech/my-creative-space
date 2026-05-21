@@ -1,6 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Link } from "@tanstack/react-router";
-import forhadPhoto from "@/assets/forhad.jpeg";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { projects } from "@/data/projects";
@@ -61,7 +60,7 @@ function Index() {
           }}
           aria-hidden
         />
-        <div className="relative mx-auto grid max-w-6xl gap-12 px-6 py-20 md:grid-cols-[1.3fr_1fr] md:py-28">
+        <div className="relative mx-auto max-w-6xl px-6 py-20 md:py-28">
           <div className="flex flex-col justify-center">
             <p className="text-mono text-xs uppercase tracking-[0.3em] text-accent">
               //Meet · AI engineer
@@ -100,26 +99,6 @@ function Index() {
               <Stat k="6+" v="Shipped projects" />
               <Stat k="3" v="Industries served" />
               <Stat k="100%" v="Hands-on build" />
-            </div>
-          </div>
-
-          <div className="relative">
-            <div className="absolute -inset-4 rounded-2xl bg-gradient-to-br from-accent/30 via-transparent to-transparent blur-2xl" aria-hidden />
-            <div className="relative overflow-hidden rounded-xl border border-hairline bg-surface-elevated shadow-2xl">
-              <img
-                src={forhadPhoto}
-                alt="Forhad Hossain, Founder & CEO of Mavericks Tech Bangladesh"
-                className="aspect-[4/5] w-full object-cover"
-              />
-              <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-background/95 via-background/60 to-transparent p-5">
-                <p className="text-mono text-xs uppercase tracking-widest text-accent">
-                  // currently
-                </p>
-                <p className="mt-1 text-sm text-foreground">
-                  Building <span className="text-mono">Hishabi AI</span> &
-                  enterprise ERP for garments.
-                </p>
-              </div>
             </div>
           </div>
         </div>
