@@ -72,11 +72,12 @@ function Index() {
               Hossain.
             </h1>
             <p className="mt-6 max-w-xl text-pretty text-lg leading-relaxed text-muted-foreground">
-              I build <span className="text-foreground">MVPs</span>,{" "}
-              <span className="text-foreground">RAG systems</span> and{" "}
-              <span className="text-foreground">enterprise inventory dashboards</span>{" "}
-              for garments, corporate offices and digital-first businesses. Founder of
-              Mavericks Tech Bangladesh. Student at Middlesex University.
+              <span className="text-foreground">Founder & CEO of Mavericks</span>.
+              Builds <span className="text-foreground">SaaS</span>,{" "}
+              <span className="text-foreground">AI</span>, and{" "}
+              <span className="text-foreground">automation tools</span> to help
+              businesses in Bangladesh grow through simple, smart, and practical
+              technology solutions.
             </p>
 
             <div className="mt-8 flex flex-wrap items-center gap-3">
