@@ -64,7 +64,7 @@ function Index() {
         <div className="relative mx-auto grid max-w-6xl gap-12 px-6 py-20 md:grid-cols-[1.3fr_1fr] md:py-28">
           <div className="flex flex-col justify-center">
             <p className="text-mono text-xs uppercase tracking-[0.3em] text-accent">
-              // founder · software engineer
+              //Meet · AI engineer
             </p>
             <h1 className="mt-5 text-balance text-5xl font-bold leading-[1.05] tracking-tight md:text-7xl">
               Forhad
