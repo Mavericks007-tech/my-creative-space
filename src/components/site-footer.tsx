@@ -28,7 +28,7 @@ export function SiteFooter() {
             // elsewhere
           </p>
           <ul className="mt-3 space-y-2 text-sm">
-            <li><a href="mailto:hello@forhad.dev" className="hover:text-accent">hello@forhad.dev</a></li>
+            <li><a href="mailto:hello@forhadhossain.tech" className="hover:text-accent">hello@forhadhossain.tech</a></li>
             <li><a href="https://github.com" className="hover:text-accent" target="_blank" rel="noreferrer">GitHub</a></li>
             <li><a href="https://linkedin.com" className="hover:text-accent" target="_blank" rel="noreferrer">LinkedIn</a></li>
           </ul>

@@ -26,8 +26,8 @@ export const Route = createFileRoute("/contact")({
 const channels = [
   {
     label: "Email",
-    value: "hello@forhad.dev",
-    href: "mailto:hello@forhad.dev",
+    value: "hello@forhadhossain.tech",
+    href: "mailto:hello@forhadhossain.tech",
     tag: "// preferred",
   },
   {
@@ -109,7 +109,7 @@ function ContactPage() {
               const body = encodeURIComponent(
                 `Name: ${data.get("name")}\nCompany: ${data.get("company")}\n\n${data.get("message")}`,
               );
-              window.location.href = `mailto:hello@forhad.dev?subject=${subject}&body=${body}`;
+              window.location.href = `mailto:hello@forhadhossain.tech?subject=${subject}&body=${body}`;
             }}
           >
             <p className="text-mono text-xs uppercase tracking-widest text-accent">
