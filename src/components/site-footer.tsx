@@ -29,8 +29,8 @@ export function SiteFooter() {
           </p>
           <ul className="mt-3 space-y-2 text-sm">
             <li><a href="mailto:hello@forhadhossain.tech" className="hover:text-accent">hello@forhadhossain.tech</a></li>
-            <li><a href="https://github.com" className="hover:text-accent" target="_blank" rel="noreferrer">GitHub</a></li>
-            <li><a href="https://linkedin.com" className="hover:text-accent" target="_blank" rel="noreferrer">LinkedIn</a></li>
+            <li><a href="https://www.instagram.com/_forhad__75?igsh=Nzd2b3B1eHF1cjU%3D" className="hover:text-accent" target="_blank" rel="noreferrer">Instagram</a></li>
+            <li><a href="https://www.linkedin.com/in/forhad-hossain-52b8b9354?utm_source=share_via&utm_content=profile&utm_medium=member_ios" className="hover:text-accent" target="_blank" rel="noreferrer">LinkedIn</a></li>
           </ul>
         </div>
       </div>

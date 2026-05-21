@@ -39,14 +39,14 @@ const channels = [
   {
     label: "LinkedIn",
     value: "in/forhadhossain",
-    href: "https://linkedin.com",
+    href: "https://www.linkedin.com/in/forhad-hossain-52b8b9354?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
     tag: "// social",
   },
   {
-    label: "GitHub",
-    value: "@forhadhossain",
-    href: "https://github.com",
-    tag: "// code",
+    label: "Instagram",
+    value: "@_forhad__75",
+    href: "https://www.instagram.com/_forhad__75?igsh=Nzd2b3B1eHF1cjU%3D",
+    tag: "// social",
   },
 ];
 
