@@ -97,6 +97,18 @@ function ProjectsPage() {
                     </span>
                   ))}
                 </div>
+
+                {p.slug === "apex-weavers-rag" && (
+                  <a
+                    href="https://bit.ly/3PbWGVl"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="mt-5 inline-flex items-center gap-2 rounded-md bg-foreground px-4 py-2 text-sm font-medium text-background transition-transform hover:-translate-y-0.5"
+                  >
+                    Try RAG Demo
+                    <span className="text-mono">→</span>
+                  </a>
+                )}
               </article>
             ))}
           </div>
