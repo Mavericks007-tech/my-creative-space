@@ -159,7 +159,7 @@ function Index() {
                   // let's build
                 </p>
                 <h2 className="mt-4 text-balance text-3xl font-semibold tracking-tight md:text-5xl">
-                  Have an MVP, RAG system or dashboard in mind?
+                  Need a system or inventory dashboard in mind?
                 </h2>
                 <p className="mt-4 max-w-2xl text-muted-foreground">
                   I take projects from rough idea to deployed product —
