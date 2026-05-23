@@ -8,24 +8,24 @@ export type BlogPost = {
 
 const basePost: BlogPost[] = [
   {
-    id: "modern-websites-slow",
+    id: "Why-Most-Modern-Websites-Fail",
     category: "SOFTWARE ENGINEERING",
     title: "Why Most Modern Websites Feel Slow",
   },
   {
-    id: "student-founder-london",
+    id: "Reality-of-a-student-founder-in-london",
     category: "STARTUPS",
-    title: "Building Products as a Student Founder in London",
+    title: "Reality of a Student Founder in London",
   },
   {
-    id: "ai-changing-frontend",
+    id: "The-Rise-of-Vibe-Coding",
     category: "AI & DEVELOPMENT",
-    title: "How AI Is Changing Frontend Development",
+    title: "The Rise of Vibe Coding",
   },
   {
-    id: "first-agency-lessons",
-    category: "PERSONAL",
-    title: "Lessons I Learned From Building My First Agency",
+    id: "npm-install-prayer",
+    category: "Developer Humor",
+    title: "When you run npm install and pray",
   },
 ];
 
