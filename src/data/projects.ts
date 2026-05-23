@@ -69,23 +69,23 @@ export const projects: Project[] = [
   },
   {
     slug: "fcommerz-mvp",
-    title: "Solo-developer build",
-    tagline: "Solo-developer build, shipped from a MacBook.",
+    title: "Build Business Websites / Portfolio",
+    tagline: "custom business websites and portfolios.",
     description:
-      "End-to-end MVP architecture for a single-developer F-commerce platform: Python/FastAPI backend, Next.js dashboard, Supabase auth + DB, OpenAI parser, Pathao/RedX integrations, and a one-click GitHub → Vercel/Railway deploy flow.",
-    client: "Internal R&D",
-    role: "Solo Engineer",
+      "I create modern business websites and professional portfolios that help brands and individuals establish a strong online presence & showcase their work.",
+    client: "Any Client Needing a Website",
+    role: "Full-stack Engineer",
     year: "2026",
-    category: "MVP / SaaS",
-    stack: ["Python", "FastAPI", "Next.js", "Supabase", "Vercel", "Railway"],
+    category: "Business Websites, Personal Portfolios, E-commerce (If applicable)",
+    stack: ["Next.js", "Tailwind CSS", "SSMS/MongoDB", "Contentful (or other CMS)"],
     highlights: [
-      "Human-in-the-loop order confirm flow",
-      "Bulk-mode design for booking 50 orders in one click",
+      "Custom design tailored to brand identity and goals",
+      "Fast,scalable and SEO-friendly development",
       "Environment-variable security, structured logging, DB-first schema",
     ],
   },
   {
-    slug: "ai-automation-bangla",
+    slug: "Bangla-AI-Automation-",
     title: "AI Automation Proposals (Bangla)",
     tagline: "Plain-Bangla proposals for SMB AI adoption.",
     description:
@@ -110,7 +110,7 @@ export const projects: Project[] = [
     role: "Lead Engineer",
     year: "2025",
     category: "Enterprise",
-    stack: ["Next.js", "PostgreSQL", "Tailwind", "Supabase"],
+    stack: ["Next.js", "PostgreSQL", "Tailwind", "Supabase", "JAVA (if applicable)"],
     highlights: [
       "Role-based access for owner, manager and staff",
       "Stock-in / stock-out movement with date, user and note",

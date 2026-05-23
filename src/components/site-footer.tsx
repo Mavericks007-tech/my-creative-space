@@ -19,6 +19,7 @@ export function SiteFooter() {
           </p>
           <ul className="mt-3 space-y-2 text-sm">
             <li><Link to="/projects" className="hover:text-accent">Projects</Link></li>
+            <li><Link to="/blog" className="hover:text-accent">Blog</Link></li>
             <li><Link to="/about" className="hover:text-accent">About</Link></li>
             <li><Link to="/contact" className="hover:text-accent">Contact</Link></li>
           </ul>
