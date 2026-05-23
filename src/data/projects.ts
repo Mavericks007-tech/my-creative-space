@@ -69,7 +69,7 @@ export const projects: Project[] = [
   },
   {
     slug: "fcommerz-mvp",
-    title: "End-to-end MVP architecture for a company's  E-commerce platform: Python/FastAPI backend, Next.js dashboard, Supabase auth + DB, OpenAI parser, Pathao/RedX integrations, and a one-click GitHub → Vercel/Railway deploy flow.",
+    title: "Solo-developer build",
     tagline: "Solo-developer build, shipped from a MacBook.",
     description:
       "End-to-end MVP architecture for a single-developer F-commerce platform: Python/FastAPI backend, Next.js dashboard, Supabase auth + DB, OpenAI parser, Pathao/RedX integrations, and a one-click GitHub → Vercel/Railway deploy flow.",
