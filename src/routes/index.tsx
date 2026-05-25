@@ -103,12 +103,27 @@ function Index() {
                 <Stat k="100%" v="Hands-on build" />
               </div>
             </div>
-            <div className="hidden overflow-hidden rounded-xl border border-hairline bg-surface-elevated md:block">
-              <img
-                src={portfolioImage}
-                alt="Forhad Hossain Portfolio"
-                className="aspect-[4/5] w-full object-cover"
-              />
+            <div className="hidden overflow-hidden md:block md:-translate-y-16">
+              <div className="relative w-2/3">
+                <div
+                  className="absolute inset-0 opacity-60"
+                  style={{
+                    background:
+                      "radial-gradient(60% 60% at 80% 0%, color-mix(in oklab, var(--accent) 15%, transparent), transparent 70%)",
+                    pointerEvents: "none",
+                  }}
+                  aria-hidden
+                />
+                <img
+                  src={portfolioImage}
+                  alt="Forhad Hossain Portfolio"
+                  className="aspect-[4/5] w-full rounded-3xl object-cover shadow-lg"
+                  style={{
+                    maskImage:
+                      "radial-gradient(ellipse 100% 100% at 50% 45%, black 0%, black 70%, transparent 100%)",
+                  }}
+                />
+              </div>
             </div>
           </div>
         </div>
