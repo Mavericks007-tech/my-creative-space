@@ -3,6 +3,7 @@ import { Link } from "@tanstack/react-router";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { projects } from "@/data/projects";
+import portfolioImage from "@/assets/portfolio.jpeg";
 
 const services = [
   {
@@ -61,44 +62,53 @@ function Index() {
           aria-hidden
         />
         <div className="relative mx-auto max-w-6xl px-6 py-20 md:py-28">
-          <div className="flex flex-col justify-center">
-            <p className="text-mono text-xs uppercase tracking-[0.3em] text-accent">
-              //Meet · AI engineer
-            </p>
-            <h1 className="mt-5 text-balance text-5xl font-bold leading-[1.05] tracking-tight md:text-7xl">
-              Forhad
-              <br />
-              Hossain.
-            </h1>
-            <p className="mt-6 max-w-xl text-pretty text-lg leading-relaxed text-muted-foreground">
-              <span className="text-foreground">Founder & CEO of Mavericks</span>.
-              Builds <span className="text-foreground">SaaS</span>,{" "}
-              <span className="text-foreground">AI</span>, and{" "}
-              <span className="text-foreground">automation tools</span> to help
-              businesses in Bangladesh grow through simple, smart, and practical
-              technology solutions.
-            </p>
+          <div className="grid gap-8 md:grid-cols-[1fr_1fr] md:items-center">
+            <div className="flex flex-col justify-center">
+              <p className="text-mono text-xs uppercase tracking-[0.3em] text-accent">
+                //Meet · AI engineer
+              </p>
+              <h1 className="mt-5 text-balance text-5xl font-bold leading-[1.05] tracking-tight md:text-7xl">
+                Forhad
+                <br />
+                Hossain.
+              </h1>
+              <p className="mt-6 max-w-xl text-pretty text-lg leading-relaxed text-muted-foreground">
+                <span className="text-foreground">Founder & CEO of Mavericks</span>.
+                Builds <span className="text-foreground">SaaS</span>,{" "}
+                <span className="text-foreground">AI</span>, and{" "}
+                <span className="text-foreground">automation tools</span> to help
+                businesses in Bangladesh grow through simple, smart, and practical
+                technology solutions.
+              </p>
 
-            <div className="mt-8 flex flex-wrap items-center gap-3">
-              <Link
-                to="/projects"
-                className="group inline-flex items-center gap-2 rounded-md bg-foreground px-5 py-2.5 text-sm font-medium text-background transition-transform hover:-translate-y-0.5"
-              >
-                View projects
-                <span className="text-mono">→</span>
-              </Link>
-              <Link
-                to="/contact"
-                className="inline-flex items-center gap-2 rounded-md border border-hairline bg-surface px-5 py-2.5 text-sm font-medium text-foreground transition-colors hover:border-accent hover:text-accent"
-              >
-                Start a project
-              </Link>
+              <div className="mt-8 flex flex-wrap items-center gap-3">
+                <Link
+                  to="/projects"
+                  className="group inline-flex items-center gap-2 rounded-md bg-foreground px-5 py-2.5 text-sm font-medium text-background transition-transform hover:-translate-y-0.5"
+                >
+                  View projects
+                  <span className="text-mono">→</span>
+                </Link>
+                <Link
+                  to="/contact"
+                  className="inline-flex items-center gap-2 rounded-md border border-hairline bg-surface px-5 py-2.5 text-sm font-medium text-foreground transition-colors hover:border-accent hover:text-accent"
+                >
+                  Start a project
+                </Link>
+              </div>
+
+              <div className="mt-12 grid max-w-md grid-cols-3 gap-6 border-t border-border/60 pt-6 text-mono">
+                <Stat k="6+" v="Shipped projects" />
+                <Stat k="3" v="Industries served" />
+                <Stat k="100%" v="Hands-on build" />
+              </div>
             </div>
-
-            <div className="mt-12 grid max-w-md grid-cols-3 gap-6 border-t border-border/60 pt-6 text-mono">
-              <Stat k="6+" v="Shipped projects" />
-              <Stat k="3" v="Industries served" />
-              <Stat k="100%" v="Hands-on build" />
+            <div className="hidden overflow-hidden rounded-xl border border-hairline bg-surface-elevated md:block">
+              <img
+                src={portfolioImage}
+                alt="Forhad Hossain Portfolio"
+                className="aspect-[4/5] w-full object-cover"
+              />
             </div>
           </div>
         </div>
